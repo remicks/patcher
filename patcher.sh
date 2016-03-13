@@ -32,7 +32,7 @@ patch -p1 -s < 52e9a4337ef23a02e1f5fde16f6241a490d32a85.patch
 git clean -f -d
 
 # packages/apps/Trebuchet:
-cd ../../../packages/apps/Trebuchet
+cd ../../packages/apps/Trebuchet
 git reset --hard && git clean -f -d
 wget -q https://github.com/sultanxda/android_packages_apps_Trebuchet/commit/5cbf273ce872ed51887e90cd54ef0283ac2987b6.patch
 patch -p1 -s < 5cbf273ce872ed51887e90cd54ef0283ac2987b6.patch
